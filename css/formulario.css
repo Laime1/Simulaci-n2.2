@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-image: url('imagenes/fondo3.avif'); /* Reemplaza con la ruta de tu imagen */
+            background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+            background-position: center; /* Centra la imagen en el fondo */
+}
+
+header {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%; /* Ajusta según tus preferencias */
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#descripcion {
+    flex: 1;
+    padding-right: 20px;
+}
+
+
+
+#simulacion {
+    flex: 1;
+    padding-left: 20px;
+}
+
+/* Estilos para el formulario */
+#simulacion-form {
+    margin: 20px 0;
+}
+
+label {
+    margin: 10px 0;
+    text-align: center;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+button {
+    background-color:rgb(76, 76, 246);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer p {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+
+#simulacion-form {
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Crea 3 columnas con un ancho igual */
+    grid-gap: 10px;
+    border: 2px solid #000; /* Añade un borde sólido de 2px de grosor */
+    padding: 20px; /* Añade espacio interno alrededor del formulario */
+    border-radius: 15px;
+}
+
+    #iniciar-simulacion {
+        grid-column: 1 /2; /* Hace que el botón ocupe dos columnas */
+    }
+
+    select{
+      width: 80%;
+      padding: 10px;
+      border-radius: 8px;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: right;
+    margin-bottom: 20px; /* Agregado para espacio en la parte inferior de la barra de navegación */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+main {
+    padding: 20px;
+}
